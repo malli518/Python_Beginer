@@ -1,48 +1,48 @@
 class A:
     def __init__(self):
-        print 'Init A Constructor '
+        print('Init A Constructor ')
 
     def function1(self):
-        print 'Function 1 working '
+        print('Function 1 working ')
 
     def function2(self):
-        print 'Function 2 working'
+        print('Function 2 working')
 
 
 class B:
     def __init__(self):
-        print 'Init B Constructor'
+        print('Init B Constructor')
 
     def function3(self):
-        print 'Function 3 working '
+        print('Function 3 working ')
 
     def function4(self):
-        print 'Function 4 working'
+        print('Function 4 working')
 
 
-class C(A, B, object):
+class C(A, B):
     def __init__(self):
-        super(C, self).__init__()
-        print 'Init C Constructor'
+        super().__init__()
+        print('Init C Constructor')
 
     def function3(self):
-        print 'Function 3 working '
+        print('Function 3 working ')
 
     def function4(self):
-        print 'Function 4 working'
+        print('Function 4 working')
 
 
-class D(A, object):
+class D(A):
     def __init__(self):
-        super(D, self).__init__()
-        # super().__init__()
-        print 'Init D Constructor'
+        # super(D, self).__init__()
+        super().__init__()
+        print('Init D Constructor')
 
 
 c = C()
 d = D()
 
-print 'In Python Constructor() will participate in Inheritance'
+print('In Python Constructor() will participate in Inheritance')
 # In Python Constructor will participate in Inheritance
 # if you create a object of sub class it will first try to find init of sub class
 # if it is not found then it will call init of super class

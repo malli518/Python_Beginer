@@ -5,7 +5,7 @@ class Computer:
         self.ram = ram
 
     def config(self):
-        print '1GB RAM 1TB HD', self.cpu, self.ram
+        print('1GB RAM 1TB HD', self.cpu, self.ram)
 
 
 com1 = Computer("i5", 16)
@@ -16,7 +16,7 @@ com2.config()
 
 class Computer1:
     def __init__(self):
-        print 'inti'
+        print('inti')
         self.name = 'Nag'
         self.age = 27
 
@@ -31,9 +31,9 @@ computer = Computer1()
 computer.age = 26
 computer1 = Computer1()
 if computer.compare(computer1):
-    print 'both objects are same'
+    print('both objects are same')
 else:
-    print 'both objects are not same'
+    print('both objects are not same')
 
-print computer.name
-print computer1.name
+print(computer.name)
+print(computer1.name)

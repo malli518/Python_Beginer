@@ -12,5 +12,5 @@ car1 = Car()
 car2 = Car()
 car1.mil = 15
 Car.wheels = 5
-print car1.mil, car1.name, car1.wheels
-print car2.mil, car2.name, car2.wheels
+print(car1.mil, car1.name, car1.wheels)
+print(car2.mil, car2.name, car2.wheels)

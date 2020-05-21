@@ -2,20 +2,20 @@ import array as arr
 
 val = arr.array('i', [])
 
-n = input('Enter the size of array')
+n = int(input('Enter the size of array'))
 
 for i in range(n):
-    x = input('enter the value')
+    x = int(input('enter the value'))
     val.append(x)
 
-print val
+print(val)
 
-e = input('enter a value to search')
+e = int(input('enter a value to search'))
 k = 0
 for j in val:
     if e == j:
-        print k
+        print(k)
         break
     k += 1
-print val.index(e)
+print(val.index(e))
 

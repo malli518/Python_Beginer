@@ -1,16 +1,16 @@
 class PyChram:
     def execute(self):
-        print 'Compiling'
-        print 'Running'
+        print('Compiling')
+        print('Running')
 
 
 class MyEditor:
 
     def execute(self):
-        print 'Spell Checking'
-        print 'Naming convenstions'
-        print 'Compiling'
-        print 'Running'
+        print('Spell Checking')
+        print('Naming convenstions')
+        print('Compiling')
+        print('Running')
 
 
 class Laptop:

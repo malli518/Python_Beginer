@@ -1,8 +1,7 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 
-class Computer:
-    __metaclass__ = ABCMeta
+class Computer(ABC):
 
     @abstractmethod
     def process(self):
@@ -12,7 +11,7 @@ class Computer:
 class Laptop(Computer):
 
     def process(self):
-        print 'This is laptop'
+        print('This is laptop')
 
 
 # com = Computer()

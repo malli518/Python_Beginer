@@ -1,13 +1,13 @@
 def add():
-    print 'adding a two numbers '
+    print('adding a two numbers ')
 
 
 def sub():
-    print 'subtracting two numbers'
+    print('subtracting two numbers')
 
 
 def main():
-    print 'this is main'
+    print('this is main')
     add()
     sub()
 

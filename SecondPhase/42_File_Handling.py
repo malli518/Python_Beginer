@@ -1,6 +1,6 @@
 file = open('data.txt', 'r')
-print file.readline()
-print file.readline()
+print(file.readline())
+print(file.readline())
 # print file.read()
 
 file1 = open('abc.txt', 'w')

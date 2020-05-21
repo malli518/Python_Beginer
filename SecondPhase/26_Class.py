@@ -1,6 +1,6 @@
 class Computer:
     def config(self):
-        print '1GB RAM 1TB HD'
+        print('1GB RAM 1TB HD')
 
 
 com1 = Computer()

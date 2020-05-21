@@ -6,15 +6,16 @@ def something():
     # local variable
     a = 15
     x = globals()['a']
-    print 'in side function', a
-    print 'in side function', x
+    print('in side function', a)
+    print('in side function', x)
     globals()['a'] = 20
 
 
 something()
-print a
+print(a)
 
 lst = [10, 12, 13, 14, 15, 16, 17, 18]
+
 
 def count(lst):
     even = 0
@@ -29,4 +30,4 @@ def count(lst):
 
 even, odd = count(lst)
 
-print ('Even : {} and Odd : {} '.format(even, odd))
+print('Even : {} and Odd : {} '.format(even, odd))

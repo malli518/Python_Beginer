@@ -16,14 +16,14 @@ def sqrtToTen():
 
 
 values = topTen()
-print values.next()
-print values.next()
+print(values.__next__())
+print(values.__next__())
 for i in values:
-    print i
+    print(i)
 
 val = sqrtToTen()
 for i in val:
-    print i
+    print(i)
 
 
 

@@ -11,4 +11,4 @@ class Student:
 
 st = Student()
 # print st.sum(10, 20)
-print st.sum(10)
+print(st.sum(10, 20))

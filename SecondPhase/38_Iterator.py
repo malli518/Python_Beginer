@@ -17,9 +17,9 @@ class TopTen:
 
 values = TopTen()
 itr = values.__iter__()
-print itr.next()
-print itr.next()
-print itr.next()
+print(itr.next())
+print(itr.next())
+print(itr.next())
 # for i in values:
 #     print i
 

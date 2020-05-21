@@ -4,6 +4,6 @@ def fact(x):
     return x * fact(x - 1)
 
 
-n = input('Enter a number')
+n = int(input('Enter a number'))
 result = fact(n)
-print result
+print(result)

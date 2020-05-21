@@ -8,9 +8,9 @@ def sort(nums):
         temp = nums[i]
         nums[i] = nums[mispos]
         nums[mispos] = temp
-        print nums
+        print(nums)
 
 
 nums = [3, 5, 6, 8, 2, 4]
 sort(nums)
-print nums
+print(nums)

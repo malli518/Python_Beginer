@@ -29,12 +29,12 @@ class Student:
 
     @staticmethod
     def info():
-        print 'this is a static method '
+        print('this is a static method ')
 
 
 std = Student(40, 60, 73)
-print std.avg()
-print Student.get_school()
-print Student.info()
+print(std.avg())
+print(Student.get_school())
+print(Student.info())
 
 

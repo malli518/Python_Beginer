@@ -30,21 +30,21 @@ s1 = Student(68, 50)
 s2 = Student(50, 78)
 # Student.__add__(s1, s2) here we are overloading + operator
 s3 = s1 + s2
-print s3.m1
+print(s3.m1)
 # Student.__sub__(s1, s2) here we are overloading - operator
 s4 = s1 - s2
-print s4.m1
+print(s4.m1)
 # Student.__gt__(s1, s2) here we are overloading > operator
 if s1 > s2:
-    print 'S1 wins'
+    print('S1 wins')
 else:
-    print 'S2 wins'
+    print('S2 wins')
 
 x = 8
 # here it is printing value not a object address
-print 8
+print(8)
 # here it is printing address of s1 not values ( it is internally calling __str__ method )
-print s1
-print s2
+print(s1)
+print(s2)
 
 

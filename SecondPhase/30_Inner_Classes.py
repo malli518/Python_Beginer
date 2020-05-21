@@ -5,8 +5,8 @@ class Student:
         self.lap = self.Laptop('Lenovo', 'i7', 16)
 
     def show(self):
-        print self.name, self.roll_no
-        print self.lap.show()
+        print(self.name, self.roll_no)
+        print(self.lap.show())
 
     class Laptop:
         def __init__(self, brand, cpu, ram):
@@ -15,7 +15,7 @@ class Student:
             self.ram = ram
 
         def show(self):
-            print self.brand, self.cpu, self.ram
+            print(self.brand, self.cpu, self.ram)
 
 
 std = Student('Nag', 101)

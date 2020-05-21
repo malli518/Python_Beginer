@@ -12,9 +12,9 @@ def search(list, n):
 
 
 list = [1, 2, 3, 4, 5, 6]
-n = 6
+n = 8
 
 if search(list, n):
-    print 'Found at', pos
+    print('Found at', pos)
 else:
-    print 'Not Found'
+    print('Not Found')

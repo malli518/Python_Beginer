@@ -1,5 +1,5 @@
 def div(a, b):
-    print a/b
+    print(a/b)
 
 
 # Decorators -> you can change the behavior of the exiting function at the compile time

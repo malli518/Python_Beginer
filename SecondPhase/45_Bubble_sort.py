@@ -10,4 +10,4 @@ def sort(nums):
 
 nums = [3, 5, 6, 8, 2, 4]
 sort(nums)
-print nums
+print(nums)
