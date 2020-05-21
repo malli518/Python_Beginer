@@ -1,0 +1,132 @@
+1) print(r'c:\docs\naga') 
+ o/p :: c:\docs\naga
+\n -> new line
+r-> raw String (it print exact string )
+
+2)
+_ in command line  is previous o/p value
+
+ex :: _ + 20
+
+3)name = 'nagamalli'
+name[0] -- > 'n'
+nmae[8] --> 'i'
+name[0:3] --> nag
+
+4)List --> collection values []-> List
+ values = [10,20,30,40,50]
+ mil = [10,'naga',10.5]
+5) Tuple (you need a list and you don't want chnage the list) 
+ () -> tuple 
+values assignment is not support
+Iteration is faster compare to List,
+ example :: tup=(10,20,30,40,50)
+6)Set  {} -> set -> 
+sotres unique vlaues (duplicates are removed )
+ramdam order (we are not sure the order of elements) -
+indexing will not support
+values assignment is not support
+ex:: s={10,20,30,20,40,20}
+
+id(s) --> address of s
+
+DataTypes ::
+1)None (like null)
+2)Numeric (int,float,complex,bool)
+num=10 --> type(num) --> int 
+num=4.5 --> type(num) --> float
+num=4+9j --> type(num) --> complex
+3)List
+4)Tuple
+5)Set
+6)String
+7)Range
+8)Dictionary ex:: d={'101':'Naga','102':'Malli'}
+
+Operators::
+1)Arithamatic Operators (+,-, /, *, %) x+y
+2)Assignment Operators  (=) x+=2, y=4
+3)Relational Operators (<,>, ==,<=,>=,!=)
+4)Logical Operators (and,or,not)
+5)Unary Operators (-) ex:: n=7, -n(o/p:-7), n= -n
+6)BitWise Operators (complement(~),And(&),Or(|),Xor(^),Leftshift(<<),RightShift(>>))
+6.1)complement 0 -1
+		       1 - 0
+ex:: 110001
+1's complement:: 001110
+2's complement:: adding 1
+o/p:: 001111 		      
+>>>~12
+o/p:: -13
+6.2)and &
+0 0 -> 0
+0 1 -> 0
+1 0 -> 0
+1 1 -> 1
+
+6.3)or |
+0 0 -> 0
+0 1 -> 1
+1 0 -> 1
+1 1 -> 1
+
+6.4)xor ^
+0 0 -> 0
+0 1 -> 1
+1 0 -> 1
+1 1 -> 0
+6.5)Leftshift <<
+1010.0000
+101000.00
+6.5)RightShift >>
+1010.0000
+10.100000
+
+NumberSystem:
+1)Decimal -> 0-9 ex:: 0b11001 o/p : 25
+2)Binary -> 0-1 ex:: bin(25) o/p : 0b11001
+3)Octal -> 0-7 ex:: oct(25) o/p : 031
+4)HexaDeceimal -> 0-9 a-f ex:: hex(25) o/p: 0x19
+
+Math Functions::
+first we need to import math then only we can access math funcations 
+
+ex:: 
+import math
+	or
+import math as m  (alias name for math )
+	or
+from math import sqrt,pow (import only specific funcations)
+
+1)math.sqrt(25)
+o/p:: 5.0
+2)math.floor(25.9)
+o/p: 25
+3)math.ceil(25.2)
+o/p: 26
+4)math.pow(3,2)
+o/p: 9
+5)math.pi
+o/p: 3.14159265359
+6)math.e
+o/p: 2.71828182846
+
+
+Functions:: 
+
+def function_name(list of parameters):
+	block of staments
+	
+
+formal parameters :: funcations arguments 
+actual parameters :: funcations calling arguments like add(10,20)
+actual parameters types ::
+Position
+Keyword -> we can pass values by key like :: person(name='Naga', age=28)
+default -> we can define default values to arguments like : def person(name, age=18):
+variable length - > it's like a var args in java :: def add(a, *b):
+keyworded variable length arguments ->  it's like a var args in java and key name :: def add(a, **b):
+
+
+
+
